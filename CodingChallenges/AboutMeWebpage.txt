@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>About Sean</title>
+
+    </head>
+
+    <body>
+        <h1>About Me</h1>
+        <p>My name is Sean and I am a father of 3 children.  I like to dance, and play video games,
+            especially with my children. 
+        </p>
+        <hr />
+        <h1>Hobbies</h1>
+        <ul>
+            <li>Coding</li>
+            <li>Video Games</li>
+            <li>Dancing</li>
+            <li>Working on Cars</li>
+        </ul>
+
+        <img src="https://cdn.shopify.com/s/files/1/0535/6917/products/mistakesdemotivator_medium.jpeg?v=1554328460" />
+    </body>
+</html>
