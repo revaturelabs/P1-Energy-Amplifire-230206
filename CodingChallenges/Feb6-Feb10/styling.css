@@ -1,0 +1,35 @@
+/* 
+        Created by: Sean Nuttall
+        Last Updated 2/8/2023
+        Description:  Styling for AboutMeWebpage.txt
+*/
+
+:root {
+    --black: #02060a;
+    --somethingsoundingcool: #16027b;
+
+}
+
+body {
+    color: var(--black);
+
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 25%;
+}
+
+.title {
+    margin-top: 5%;
+    border: 5px solid var(--somethingsoundingcool);
+    display: flex;
+    justify-content: center;
+}
+
+#hobbies {
+    display: flex;
+    justify-content: space-around;
+}
