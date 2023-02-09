@@ -29,7 +29,28 @@ img {
     justify-content: center;
 }
 
+#shoppinglist.show {
+
+    visibility: visible;
+
+}
+
 #hobbies {
     display: flex;
     justify-content: space-around;
+}
+
+#shoppinglist {
+
+    visibility:hidden;
+    background-color:var(--black);
+    text-align: center;
+    z-index: 1;
+    left: 50%;
+    position: fixed;
+    color:aliceblue;
+    min-width: 250px;
+    margin-left: -125px;
+    
+
 }

@@ -5,7 +5,7 @@
 
         <title>About Sean</title>
         <link rel="stylesheet" href="styling.css" />
-        <script src="scripts.js"></script>
+        <script defer src="./scripts.js"></script>
 
     </head>
 
@@ -18,7 +18,6 @@
         <h1 class="title">Hobbies</h1>
         <ul id="hobbies">
             <li>Coding</li>
-            <li>Video Games</li>
             <li>Dancing</li>
             <li>Working on Cars</li>
         </ul>
@@ -28,10 +27,12 @@
             alt="A motivational poster about making mistakes."
         />
         <section id="shopping cart">
+
             <input aria-labelledby="Add To Shopping Cart" id="add"  type="button" value="Add to Shopping Cart" />
-            <input aria-labelledby="Product Name" id="product"  name="Product Name" type="text" value="Add to Shopping Cart" />
+            <input aria-labelledby="Product Name" id="product"  name="Product Name" type="text" />
             <input aria-labelledby="Proceed to Checkout" id="checkout"  type="button" value="Proceed to Checkout" />
 
+            <div id="shoppinglist">Shopping List</div>
         </section>
     </body>
 </html>

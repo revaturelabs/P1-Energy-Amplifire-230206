@@ -9,22 +9,36 @@
 
 let buttonAdd = document.querySelector("#add");
 let buttonCheckout = document.querySelector("#checkout");
-let productName = document.querySelector("#product");
 
 let myList = [];
+let myBlank = [];
+buttonAdd.addEventListener("click", getName);
+buttonCheckout.addEventListener("click", checkout);
 
-function addToList(newItem) {
 
-    myList.push(newItem);
+function getName(){
+
+    let productName = document.getElementById("product").value;
+    addToList(productName);
+
+}
+
+function addToList(prodName) {
+    
+    myList.push(prodName);
     
 }
 
 function checkout() {
 
-    for(i=0, i < myList.length, i++){
-        alert(myList[i]);
-    }
-    myList = [];
+    let toast = document.getElementById("shoppinglist");
+    
+    toast.innerHTML = myList;
+    toast.className = "show";
+    setTimeout(() => {
+        toast.classList.remove("show");
+    }, 3000);
+    myList = myBlank;
 
 }
 
