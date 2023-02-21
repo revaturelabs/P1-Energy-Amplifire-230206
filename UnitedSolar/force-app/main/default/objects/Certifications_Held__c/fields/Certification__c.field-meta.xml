@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Certification__c</fullName>
+    <externalId>false</externalId>
+    <label>Certification</label>
+    <referenceTo>Certification__c</referenceTo>
+    <relationshipLabel>Certifications Held</relationshipLabel>
+    <relationshipName>Certifications_Held</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

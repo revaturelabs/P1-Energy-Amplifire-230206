@@ -2,8 +2,17 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>56.0</version>
     <types>
-         <!-- Retrieves the lead and case assignment rules named MyRule. Replace these with your custom rule names -->    
-        <members>Case.Standard</members>
-        <name>AssignmentRule</name>
+        <!-- 
+            Retrieves all custom objects and their custom fields.
+            NOTE: The CustomObject metadata type will also include the following:
+            - Record Types
+            - List Views
+            - OWDs
+            - Validation Rules
+            - Compact Layouts
+            - Much more
+        -->
+        <members>*</members>
+        <name>CustomObject</name>
     </types>
 </Package>
