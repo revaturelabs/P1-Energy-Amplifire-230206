@@ -154,12 +154,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>reimbursement_request</label>
+    <label>Reimbursement Request</label>
     <nameField>
         <label>reinbursement_requests Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>reimbursement_request</pluralLabel>
+    <pluralLabel>Reimbursement Requests</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
