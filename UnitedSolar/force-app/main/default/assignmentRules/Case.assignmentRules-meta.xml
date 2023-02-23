@@ -1,91 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
-        <fullName>Standard</fullName>
+        <fullName>QueueJumper</fullName>
         <active>true</active>
         <ruleEntry>
-            <assignedTo>sean.nuttall@resourceful-hawk-lcjd40.com</assignedTo>
+            <assignedTo>alexandra@unitedsolar.com</assignedTo>
             <assignedToType>User</assignedToType>
+            <booleanFilter>1</booleanFilter>
             <criteriaItems>
-                <field>Account.BillingCountry</field>
+                <field>Case.Reason</field>
                 <operation>equals</operation>
-                <value>US,USA,United States,United States of America</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Account.SLA__c</field>
-                <operation>equals</operation>
-                <value>Gold,Platinum</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Account.Type</field>
-                <operation>contains</operation>
-                <value>Customer</value>
+                <value>Performance,Breakdown</value>
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>sean.nuttall@resourceful-hawk-lcjd40.com</assignedTo>
-            <assignedToType>User</assignedToType>
+            <assignedTo>Case_Support</assignedTo>
+            <assignedToType>Queue</assignedToType>
             <criteriaItems>
-                <field>Account.BillingCountry</field>
-                <operation>equals</operation>
-                <value>US,USA,United States,United States of America</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Account.SLA__c</field>
-                <operation>equals</operation>
-                <value>Silver,Bronze</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Account.Type</field>
-                <operation>contains</operation>
-                <value>Customer</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>sean.nuttall@resourceful-hawk-lcjd40.com</assignedTo>
-            <assignedToType>User</assignedToType>
-            <criteriaItems>
-                <field>Account.BillingCountry</field>
+                <field>Case.Reason</field>
                 <operation>notEqual</operation>
-                <value>US,USA,United States,United States of America</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Account.SLA__c</field>
-                <operation>equals</operation>
-                <value>Gold,Platinum</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Account.Type</field>
-                <operation>contains</operation>
-                <value>Customer</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>sean.nuttall@resourceful-hawk-lcjd40.com</assignedTo>
-            <assignedToType>User</assignedToType>
-            <criteriaItems>
-                <field>Account.BillingCountry</field>
-                <operation>notEqual</operation>
-                <value>US,USA,United States,United States of America</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Account.SLA__c</field>
-                <operation>equals</operation>
-                <value>Silver,Bronze</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Account.Type</field>
-                <operation>contains</operation>
-                <value>Customer</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>sean.nuttall@resourceful-hawk-lcjd40.com</assignedTo>
-            <assignedToType>User</assignedToType>
-            <criteriaItems>
-                <field>Account.Type</field>
-                <operation>contains</operation>
-                <value>Partner</value>
+                <value>Performance,Breakdown</value>
             </criteriaItems>
         </ruleEntry>
     </assignmentRule>
