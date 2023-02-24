@@ -13,10 +13,10 @@
     <label>Support Staff</label>
     <navType>Standard</navType>
     <tabs>standard-AppLauncher</tabs>
-    <tabs>standard-Order</tabs>
-    <tabs>Receipt__c</tabs>
-    <tabs>standard-Case</tabs>
     <tabs>standard-Account</tabs>
+    <tabs>standard-Order</tabs>
+    <tabs>Payment_Receipt__c</tabs>
+    <tabs>standard-Case</tabs>
     <tabs>standard-Contact</tabs>
     <tabs>standard-Product2</tabs>
     <uiType>Lightning</uiType>
