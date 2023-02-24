@@ -145,7 +145,7 @@
     <deploymentStatus>Deployed</deploymentStatus>
     <description>Is a request for reimbursements from technicians for the cost of parts needed to complete the order.</description>
     <enableActivities>false</enableActivities>
-    <enableBulkApi>true</enableBulkApi>
+    <enableBulkApi>false</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>

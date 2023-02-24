@@ -6,7 +6,7 @@
     <externalId>false</externalId>
     <label>User</label>
     <referenceTo>User</referenceTo>
-    <relationshipName>reimbursement_request</relationshipName>
+    <relationshipName>submitted_reimbursement_request</relationshipName>
     <required>false</required>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>
