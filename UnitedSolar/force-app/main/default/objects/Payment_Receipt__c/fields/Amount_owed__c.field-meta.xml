@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>dollar_cost__c</fullName>
+    <fullName>Amount_owed__c</fullName>
+    <description>total amount needed to pay off the product</description>
     <externalId>false</externalId>
-    <label>dollar_ cost</label>
-    <precision>14</precision>
+    <label>Amount_Owed</label>
+    <precision>12</precision>
     <required>false</required>
     <scale>2</scale>
     <trackTrending>false</trackTrending>

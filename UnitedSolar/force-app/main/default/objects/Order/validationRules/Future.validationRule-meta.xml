@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Future</fullName>
+    <active>true</active>
+    <errorConditionFormula>Next_Payment__c  &gt;     DATEVALUE( NOW() )</errorConditionFormula>
+    <errorDisplayField>Next_Payment__c</errorDisplayField>
+    <errorMessage>Payments must be set in the future to be valid</errorMessage>
+</ValidationRule>
