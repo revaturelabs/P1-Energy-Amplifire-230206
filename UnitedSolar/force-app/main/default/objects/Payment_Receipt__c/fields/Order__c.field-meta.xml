@@ -4,7 +4,6 @@
     <externalId>false</externalId>
     <label>Order</label>
     <referenceTo>Order</referenceTo>
-    <relationshipLabel>Receipts</relationshipLabel>
     <relationshipName>Receipts</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>

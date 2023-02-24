@@ -7,8 +7,7 @@
     </types>
     <types>
         <!-- Retrieves the lead and case assignment rules named MyRule. Replace these with your custom rule names -->    
-        <members>Case.QueueJumper</members>
-        <name>AssignmentRule</name>
+          <name>AssignmentRule</name>
     </types>
     <types>
         <!-- Retrieves all flows -->

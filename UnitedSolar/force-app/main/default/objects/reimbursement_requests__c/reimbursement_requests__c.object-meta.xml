@@ -151,15 +151,15 @@
     <enableLicensing>false</enableLicensing>
     <enableReports>true</enableReports>
     <enableSearch>false</enableSearch>
-    <enableSharing>true</enableSharing>
-    <enableStreamingApi>true</enableStreamingApi>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>reimbursement_request</label>
+    <label>Reimbursement_Request</label>
     <nameField>
-        <label>reinbursement_requests Name</label>
+        <label>Reimbursement_Requests</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>reimbursement_request</pluralLabel>
+    <pluralLabel>Reimbursement_Requests</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

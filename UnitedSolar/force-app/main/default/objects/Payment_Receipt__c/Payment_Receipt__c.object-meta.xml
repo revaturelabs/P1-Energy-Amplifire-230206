@@ -153,12 +153,12 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Receipt</label>
+    <label>Payment Receipt</label>
     <nameField>
-        <label>Reciepts Name</label>
+        <label>Payment Receipt Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Receipts</pluralLabel>
+    <pluralLabel>Payment Receipts</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
