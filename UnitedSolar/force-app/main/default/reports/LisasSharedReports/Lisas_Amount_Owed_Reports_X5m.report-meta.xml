@@ -20,18 +20,13 @@
     </columns>
     <columns>
         <aggregateTypes>Sum</aggregateTypes>
-        <field>Order.Bill_Remaining__c</field>
-    </columns>
-    <columns>
-        <aggregateTypes>Sum</aggregateTypes>
         <field>CDF1</field>
     </columns>
     <customDetailFormulas>
-        <calculatedFormula>(Order.Bill_Remaining__c / ORDER_TOTAL_AMOUNT ) *100</calculatedFormula>
+        <calculatedFormula>(Order.Summary_of_Receipts__c/ORDER_TOTAL_AMOUNT)*100</calculatedFormula>
         <dataType>Double</dataType>
-        <description>Percentage of Bill left to be paid</description>
         <developerName>CDF1</developerName>
-        <label>Percent Owed</label>
+        <label>Percentage Paid</label>
         <scale>2</scale>
     </customDetailFormulas>
     <filter>
@@ -41,13 +36,6 @@
             <isUnlocked>true</isUnlocked>
             <operator>equals</operator>
             <value>Activated</value>
-        </criteriaItems>
-        <criteriaItems>
-            <column>CDF1</column>
-            <columnToColumn>false</columnToColumn>
-            <isUnlocked>true</isUnlocked>
-            <operator>lessThan</operator>
-            <value>90</value>
         </criteriaItems>
         <language>en_US</language>
     </filter>
