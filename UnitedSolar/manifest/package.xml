@@ -21,9 +21,18 @@
     </types>
     <types>
         <!-- Retrieves custom fields and other info on Account and Contact only. If you customize other standard objects, add them here -->
-        <members>Account</members>
-        <members>Contact</members>
         <members>Order</members>
         <name>CustomObject</name>
+    </types>
+    <types>
+        <!-- Retrieves the custom app named CustomAppName. DO NOT RETRIEVE ALL, only list your custom apps you create -->
+        <members>Engineering</members>
+        <members>Support_Staff</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <!-- Ask for assistance for retrieving custom reports -->
+        <members>LisasSharedReports/Lisas_Amount_Owed_Reports_X5m</members>
+        <name>Report</name>
     </types>
 </Package>
