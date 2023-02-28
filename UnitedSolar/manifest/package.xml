@@ -45,11 +45,6 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <!-- Retrieves fiscal year -->
-        <members>Company Settings</members>
-        <name>Settings</name>
-    </types>
-    <types>
         <members>*</members>
         <name>PathAssistant</name>
     </types>
@@ -61,6 +56,9 @@
         <members>Account-Engineer Layout</members>
         <name>Layout</name>
     </types>
+    <type>
+        <members>Opportunity.StageName</members>
+        <name>StandardValueSet</name>
     <types>
         <!-- Retrieves the custom app named CustomAppName. DO NOT RETRIEVE ALL, only list your custom apps you create -->
         <members>Engineering</members>
