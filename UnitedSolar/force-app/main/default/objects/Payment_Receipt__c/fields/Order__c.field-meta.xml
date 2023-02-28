@@ -4,7 +4,10 @@
     <externalId>false</externalId>
     <label>Order</label>
     <referenceTo>Order</referenceTo>
+<<<<<<< HEAD
     <relationshipLabel>Payment Receipts</relationshipLabel>
+=======
+>>>>>>> 12f7d40ee50f2660e95ab74d46f428b6dd93c7e2
     <relationshipName>Receipts</relationshipName>
     <relationshipOrder>0</relationshipOrder>
     <reparentableMasterDetail>false</reparentableMasterDetail>
