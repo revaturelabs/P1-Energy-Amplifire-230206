@@ -6,13 +6,30 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <members>Account</members>
-        <name>CustomObject</name>
+        <!-- Retrieves the lead and case assignment rules named MyRule. Replace these with your custom rule names -->   
+        <members>Lead.EngineeringToLisa</members>
+        <name>AssignmentRule</name>
+    </types>
+    <types>
+        <!-- 
+            Retrieves the CustomProfile profile. DO NOT RETRIEVE ALL, replace with your custom profiles.
+            Make sure to pull any objects you want to have the permissions for 
+        -->
+        <members>Human Resources</members>
+        <members>HR</members>
+        <members>Engineer</members>
+        <members>Finance</members>
+        <name>Profile</name>
     </types>
     <types>
         <!-- Retrieves all flows -->
         <members>*</members>
         <name>Flow</name>
+    </types>
+    <types>
+        <!-- Retrieves all flows -->
+        <members>*</members>
+        <name>PermissionSet</name>
     </types>
     <types>
         <!-- Retrieves all custom tabs -->
@@ -39,4 +56,7 @@
         <members>Account-Engineer Layout</members>
         <name>Layout</name>
     </types>
+    <type>
+        <members>OpportunityStageName</members>
+        <name>StandardValueSet</name>
 </Package>

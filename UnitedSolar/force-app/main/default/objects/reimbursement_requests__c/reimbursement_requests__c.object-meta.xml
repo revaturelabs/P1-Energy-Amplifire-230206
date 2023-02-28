@@ -143,23 +143,24 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Is a request for reimbursements from technicians for the cost of parts needed to complete the order.</description>
     <enableActivities>false</enableActivities>
-    <enableBulkApi>true</enableBulkApi>
+    <enableBulkApi>false</enableBulkApi>
     <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableLicensing>false</enableLicensing>
     <enableReports>true</enableReports>
-    <enableSearch>true</enableSearch>
-    <enableSharing>true</enableSharing>
-    <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ControlledByParent</externalSharingModel>
-    <label>Receipt</label>
+    <enableSearch>false</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
+    <externalSharingModel>Private</externalSharingModel>
+    <label>Reimbursement_Request</label>
     <nameField>
-        <label>Reciepts Name</label>
+        <label>Reimbursement_Requests</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Receipts</pluralLabel>
+    <pluralLabel>Reimbursement_Requests</pluralLabel>
     <searchLayouts></searchLayouts>
-    <sharingModel>ControlledByParent</sharingModel>
+    <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

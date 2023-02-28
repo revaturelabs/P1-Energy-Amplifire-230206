@@ -2,9 +2,9 @@
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
         <fullName>QueueJumper</fullName>
-        <active>true</active>
+        <active>false</active>
         <ruleEntry>
-            <assignedTo>alexandra@unitedsolar.com</assignedTo>
+            <assignedTo>sean.nuttall@resourceful-hawk-lcjd40.com</assignedTo>
             <assignedToType>User</assignedToType>
             <booleanFilter>1</booleanFilter>
             <criteriaItems>
