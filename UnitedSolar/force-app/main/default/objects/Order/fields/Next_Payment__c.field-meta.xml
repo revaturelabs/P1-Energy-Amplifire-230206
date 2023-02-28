@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Bill__c</fullName>
+    <fullName>Next_Payment__c</fullName>
     <externalId>false</externalId>
-    <label>Bill</label>
-    <precision>18</precision>
+    <label>Next_Payment</label>
     <required>false</required>
-    <scale>2</scale>
-    <trackTrending>false</trackTrending>
-    <type>Currency</type>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
 </CustomField>
