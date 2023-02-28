@@ -57,21 +57,6 @@
         <name>Layout</name>
     </types>
     <type>
-        <members>Opportunity.StageName</members>
+        <members>OpportunityStageName</members>
         <name>StandardValueSet</name>
-    <types>
-        <!-- Retrieves the custom app named CustomAppName. DO NOT RETRIEVE ALL, only list your custom apps you create -->
-        <members>Engineering</members>
-        <members>Support_Staff</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <!-- Ask for assistance for retrieving custom reports -->
-        <members>LisasSharedReports/Lisas_Amount_Owed_Reports_X5m</members>
-        <name>Report</name>
-    </types>
-    <types>
-        <members>Security</members>
-        <name>Settings</name>
-    </types>
 </Package>

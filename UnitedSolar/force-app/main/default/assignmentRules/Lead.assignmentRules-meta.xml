@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>EngineeringToLisa</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>todorovevgeny@curious-goat-884uvd.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.Industry</field>
+                <operation>equals</operation>
+                <value>Engineering</value>
+            </criteriaItems>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

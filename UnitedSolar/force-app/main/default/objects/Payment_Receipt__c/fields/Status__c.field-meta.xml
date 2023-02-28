@@ -11,19 +11,14 @@
         <valueSetDefinition>
             <sorted>false</sorted>
             <value>
-                <fullName>New</fullName>
+                <fullName>Pending</fullName>
                 <default>false</default>
-                <label>New</label>
+                <label>Pending</label>
             </value>
             <value>
                 <fullName>Approved</fullName>
                 <default>false</default>
                 <label>Approved</label>
-            </value>
-            <value>
-                <fullName>Rejected</fullName>
-                <default>false</default>
-                <label>Rejected</label>
             </value>
         </valueSetDefinition>
     </valueSet>
