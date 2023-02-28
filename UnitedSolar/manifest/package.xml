@@ -39,8 +39,4 @@
         <members>Account-Engineer Layout</members>
         <name>Layout</name>
     </types>
-    <type>
-        <members>Opportunity.StageName</members>
-        <name>StandardValueSet</name>
-    </type>
 </Package>
