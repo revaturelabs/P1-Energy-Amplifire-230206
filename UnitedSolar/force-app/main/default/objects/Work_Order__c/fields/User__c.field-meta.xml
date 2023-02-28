@@ -3,7 +3,7 @@
     <fullName>User__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
-    <label>Engineer Assigned</label>
+    <label>User</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Work_Orders</relationshipName>
     <required>false</required>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Summary_of_Receipts__c</fullName>
-    <description>Total paid on this order</description>
     <externalId>false</externalId>
     <label>Summary of Receipts</label>
     <summarizedField>Payment_Receipt__c.Amount_Paid__c</summarizedField>
