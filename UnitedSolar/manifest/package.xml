@@ -7,7 +7,6 @@
     </types>
     <types>
         <!-- Retrieves the lead and case assignment rules named MyRule. Replace these with your custom rule names -->    
-        <members>QueueJumper</members>
         <name>AssignmentRule</name>
     </types>
     <types>
