@@ -28,11 +28,6 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <!-- Retrieves fiscal year -->
-        <members>Company Settings</members>
-        <name>Settings</name>
-    </types>
-    <types>
         <members>*</members>
         <name>PathAssistant</name>
     </types>
@@ -45,7 +40,7 @@
         <name>Layout</name>
     </types>
     <type>
-        <members>Lead.EngineeringToLisa</members>
-        <name>AssignmentRule</name>
+        <members>Opportunity.StageName</members>
+        <name>StandardValueSet</name>
     </type>
 </Package>
