@@ -26,6 +26,11 @@
         <name>Flow</name>
     </types>
     <types>
+        <!-- Retrieves all flows -->
+        <members>*</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
         <!-- Retrieves all custom tabs -->
         <members>*</members>
         <name>CustomTab</name>
