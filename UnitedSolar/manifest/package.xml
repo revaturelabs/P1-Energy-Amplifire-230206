@@ -6,7 +6,8 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <!-- Retrieves the lead and case assignment rules named MyRule. Replace these with your custom rule names -->    
+        <!-- Retrieves the lead and case assignment rules named MyRule. Replace these with your custom rule names -->   
+        <members>Lead.EngineeringToLisa</members>
         <name>AssignmentRule</name>
     </types>
     <types>
@@ -39,6 +40,8 @@
         <!-- Retrieves custom fields and other info on Account and Contact only. If you customize other standard objects, add them here -->
         <members>Account</members>
         <members>Order</members>
+        <members>Opportunity</members>
+        <members>Case</members>
         <name>CustomObject</name>
     </types>
     <types>
@@ -47,16 +50,16 @@
         <name>Settings</name>
     </types>
     <types>
-            <members>*</members>
-            <name>PathAssistant</name>
+        <members>*</members>
+        <name>PathAssistant</name>
     </types>
     <types>
-            <members>Opportunity-Opportunity Business Layout</members>
-            <members>Opportunity-Opportunity Charity Layout</members>
-            <members>Account-Business Layout</members>
-            <members>Account-Household Layout</members>
-            <members>Account-Engineer Layout</members>
-            <name>Layout</name>
+        <members>Opportunity-Opportunity Business Layout</members>
+        <members>Opportunity-Opportunity Charity Layout</members>
+        <members>Account-Business Layout</members>
+        <members>Account-Household Layout</members>
+        <members>Account-Engineer Layout</members>
+        <name>Layout</name>
     </types>
     <types>
         <!-- Retrieves the custom app named CustomAppName. DO NOT RETRIEVE ALL, only list your custom apps you create -->

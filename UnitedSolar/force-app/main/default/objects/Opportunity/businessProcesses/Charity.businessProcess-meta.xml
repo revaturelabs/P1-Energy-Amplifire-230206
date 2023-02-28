@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Charity</fullName>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Analysis Needed</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Analyze Perception</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Chilled</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Lost</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Closed Won</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Id Decision Makers</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Likely</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Price%2FProposal Quote</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Proposition Value</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Prospect</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Qualifying</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Very Likely</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>
