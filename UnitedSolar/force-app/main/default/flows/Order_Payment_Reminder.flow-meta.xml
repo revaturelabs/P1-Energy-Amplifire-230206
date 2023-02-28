@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionCalls>
+        <name>Action010_Send_Email</name>
+        <label>Action010 Send Email</label>
+        <locationX>308</locationX>
+        <locationY>408</locationY>
+        <actionName>emailSimple</actionName>
+        <actionType>emailSimple</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>emailBody</name>
+            <value>
+                <elementReference>Email_to_Contact_Content</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailAddressesArray</name>
+            <value>
+                <elementReference>contactsEmail</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>emailSubject</name>
+            <value>
+                <stringValue>Next Payment is Due Soon</stringValue>
+            </value>
+        </inputParameters>
+    </actionCalls>
+    <apiVersion>57.0</apiVersion>
+    <assignments>
+        <name>Assignment010_Email_Address</name>
+        <label>Assignment010 Email Address</label>
+        <locationX>308</locationX>
+        <locationY>288</locationY>
+        <assignmentItems>
+            <assignToReference>contactsEmail</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>$Record.BillToContact.Email</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Action010_Send_Email</targetReference>
+        </connector>
+    </assignments>
+    <description>When the Next Payment Due Date is in two days, a contact from the business that made the order should be emailed a reminder.</description>
+    <environments>Default</environments>
+    <interviewLabel>Order Payment Reminder {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Order Payment Reminder</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Next_Payment_Due_Date__c</field>
+            <operator>IsNull</operator>
+            <value>
+                <booleanValue>false</booleanValue>
+            </value>
+        </filters>
+        <object>Order</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <scheduledPaths>
+            <name>Payment_Due_Date_Reminder</name>
+            <connector>
+                <targetReference>Assignment010_Email_Address</targetReference>
+            </connector>
+            <label>Payment Due Date Reminder</label>
+            <offsetNumber>-2</offsetNumber>
+            <offsetUnit>Days</offsetUnit>
+            <recordField>Next_Payment_Due_Date__c</recordField>
+            <timeSource>RecordField</timeSource>
+        </scheduledPaths>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>Email_to_Contact_Content</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;Dear {!$Record.BillToContact.Salutation} {!$Record.BillToContact.FirstName} {!$Record.BillToContact.LastName},&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;A payment on order {!$Record.Name} is due on {!$Record.Next_Payment_Due_Date__c}.&lt;/p&gt;</text>
+    </textTemplates>
+    <variables>
+        <name>contactsEmail</name>
+        <dataType>String</dataType>
+        <isCollection>true</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>
