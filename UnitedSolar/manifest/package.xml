@@ -14,7 +14,6 @@
             Retrieves the CustomProfile profile. DO NOT RETRIEVE ALL, replace with your custom profiles.
             Make sure to pull any objects you want to have the permissions for 
         -->
-        <members>Human Resources</members>
         <members>HR</members>
         <members>Engineer</members>
         <members>Finance</members>
@@ -42,11 +41,6 @@
         <name>CustomObject</name>
     </types>
     <types>
-        <!-- Retrieves fiscal year -->
-        <members>Company Settings</members>
-        <name>Settings</name>
-    </types>
-    <types>
             <members>*</members>
             <name>PathAssistant</name>
     </types>
@@ -58,18 +52,7 @@
             <members>Account-Engineer Layout</members>
             <name>Layout</name>
     </types>
-    <types>
-        <!-- Retrieves the custom app named CustomAppName. DO NOT RETRIEVE ALL, only list your custom apps you create -->
-        <members>Engineering</members>
-        <members>Support_Staff</members>
-        <name>CustomApplication</name>
-    </types>
-    <types>
-        <!-- Ask for assistance for retrieving custom reports -->
-        <members>LisasSharedReports/Lisas_Amount_Owed_Reports_X5m</members>
-        <name>Report</name>
-    </types>
-    <types>
+     <types>
         <members>Security</members>
         <name>Settings</name>
     </types>
