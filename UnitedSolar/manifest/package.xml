@@ -57,6 +57,7 @@
         <name>Layout</name>
     </types>
     <type>
-        <members>OpportunityStageName</members>
+        <members>OpportunityStage</members>
         <name>StandardValueSet</name>
+    </type>
 </Package>
