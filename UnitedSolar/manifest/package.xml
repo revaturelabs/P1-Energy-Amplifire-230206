@@ -60,4 +60,8 @@
         <members>OpportunityStage</members>
         <name>StandardValueSet</name>
     </type>
+    <type>
+        <members>Opportunity.Stage</members>
+        <name>CustomField</name>
+    </type>
 </Package>
