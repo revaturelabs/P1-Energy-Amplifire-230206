@@ -7,7 +7,19 @@
     </types>
     <types>
         <!-- Retrieves the lead and case assignment rules named MyRule. Replace these with your custom rule names -->    
-          <name>AssignmentRule</name>
+        <members>QueueJumper</members>
+        <name>AssignmentRule</name>
+    </types>
+    <types>
+        <!-- 
+            Retrieves the CustomProfile profile. DO NOT RETRIEVE ALL, replace with your custom profiles.
+            Make sure to pull any objects you want to have the permissions for 
+        -->
+        <members>Human Resources</members>
+        <members>HR</members>
+        <members>Engineer</members>
+        <members>Finance</members>
+        <name>Profile</name>
     </types>
     <types>
         <!-- Retrieves all flows -->
@@ -34,5 +46,9 @@
         <!-- Ask for assistance for retrieving custom reports -->
         <members>LisasSharedReports/Lisas_Amount_Owed_Reports_X5m</members>
         <name>Report</name>
+    </types>
+    <types>
+        <members>Security</members>
+        <name>Settings</name>
     </types>
 </Package>
