@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
     <assignmentRule>
-        <fullName>QueueJumper</fullName>
-        <active>false</active>
+        <fullName>Cases For Alex</fullName>
+        <active>true</active>
         <ruleEntry>
-            <assignedTo>sean.nuttall@resourceful-hawk-lcjd40.com</assignedTo>
+            <assignedTo>alexandra@unitedsolar.com</assignedTo>
             <assignedToType>User</assignedToType>
-            <booleanFilter>1</booleanFilter>
             <criteriaItems>
                 <field>Case.Reason</field>
                 <operation>equals</operation>
@@ -16,11 +15,6 @@
         <ruleEntry>
             <assignedTo>Case_Support</assignedTo>
             <assignedToType>Queue</assignedToType>
-            <criteriaItems>
-                <field>Case.Reason</field>
-                <operation>notEqual</operation>
-                <value>Performance,Breakdown</value>
-            </criteriaItems>
         </ruleEntry>
     </assignmentRule>
 </AssignmentRules>
